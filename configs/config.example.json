@@ -1,0 +1,16 @@
+{
+  "source": 0,
+  "model_path": "models/best.pt",
+  "conf_thres": 0.35,
+  "iou_thres": 0.45,
+  "imgsz": 640,
+  "serial_port": null,
+  "baudrate": 115200,
+  "send_json": true,
+  "show_video": true,
+  "min_detection_interval": 0.05,
+  "skip_frames": 0,
+  "network_host": null,
+  "network_port": 5005,
+  "network_enabled": false
+}
