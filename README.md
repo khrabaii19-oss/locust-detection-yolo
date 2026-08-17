@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python">
+  <img src="https://img.shields.io/badge/YOLOv8-Computer%20Vision-red" alt="YOLO">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/github/stars/your-username/flea-laser-project?style=social" alt="Stars">
+</p>
+
 # Flea Detection & Laser Targeting System (YOLOv8)
 
 Real-time detection and tracking of fleas using YOLOv8, integrated with a
