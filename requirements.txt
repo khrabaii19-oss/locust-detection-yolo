@@ -1,0 +1,31 @@
+# ============================================================
+# Flea Detection & Tracking - Python Dependencies
+# ============================================================
+# CPU-only: pip install -r requirements.txt
+# GPU (CUDA 12.x, recommended): install torch first, then the rest:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements.txt
+
+# --- Core ML ---
+ultralytics>=8.2.0          # YOLOv8 training, inference and model zoo
+torch>=2.2.0                # PyTorch backend (GPU build recommended)
+torchvision>=0.17.0
+
+# --- Vision ---
+opencv-python>=4.9.0.80     # Camera capture, frame processing, display
+
+# --- Actuator communication ---
+pyserial>=3.5               # Serial link to Raspberry Pi / servo driver
+
+# --- Data handling ---
+numpy>=1.26.0
+pandas>=2.1.0               # optional: used for metrics/log analysis
+PyYAML>=6.0                 # dataset YAML parsing/generation
+
+# --- Training utilities ---
+matplotlib>=3.8.0           # training curve plots
+tqdm>=4.66.1                # progress bars
+psutil>=5.9.0               # system resource monitoring
+
+# --- IP camera helpers (optional but useful) ---
+# onvif-zeep>=0.2.12        # auto-discovery of IP cameras
